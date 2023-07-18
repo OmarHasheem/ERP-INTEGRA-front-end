@@ -1,0 +1,13 @@
+.editCampaign {
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: calc(100vw - 250px);
+  height: calc(100vh - 70px);
+}
+
+.editCampaign {
+  h1 {
+    margin: 20px;
+    color: var(--second-color);
+  }
+}

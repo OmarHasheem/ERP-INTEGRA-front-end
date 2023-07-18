@@ -1,0 +1,41 @@
+.containar{
+    margin: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    box-shadow: none;
+}
+
+.childrenCard{
+    margin: 10px;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cards{
+    border: 2px solid var(--third-color);
+    width: 170px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards:hover{
+background-color: var(--third-color);
+color: var(--main-color);
+transition: 0.4s;
+}
+
+.countUp{
+    margin-top: 20px;
+}
+
+h4{
+    margin-top: 10px;
+}

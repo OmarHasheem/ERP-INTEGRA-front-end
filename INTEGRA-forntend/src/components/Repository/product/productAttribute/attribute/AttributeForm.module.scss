@@ -1,0 +1,88 @@
+.attributeForm {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.attributeForm {
+  .form {
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: 70%;
+  }
+  label {
+    margin: 25px;
+    color: var(--second-color);
+    font-size: 18px;
+  }
+  input {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    outline: none;
+    margin: 24px;
+  }
+
+  select {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    outline: none;
+    margin: 24px;
+    color: var(--second-color);
+    font-size: 14px;
+  }
+  option {
+    background-color: var(--second-color);
+    color: var(--text-color);
+    font-size: 14px;
+  }
+
+  h1 {
+    margin: 20px;
+    color: var(--second-color);
+  }
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    margin: 4px;
+  }
+
+  .actions button {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    margin: 20px;
+    border-radius: 4px;
+    background-color: var(--second-color);
+    color: var(--text-color);
+    border: none;
+    transition: 0.4s;
+  }
+
+  .actions button[type='button'] {
+    background-color: var(--second-color);
+    color: var(--text-color);
+    transition: 0.4s;
+  }
+
+  .actions button:hover {
+    background-color: var(--third-color);
+    color: var(--text-color);
+  }
+
+  .actions button[type='button']:hover {
+    background-color: var(--third-color);
+    color: var(--text-color);
+  }
+
+  .addIcon {
+    background-color: var(--second-color);
+    color: var(--text-color);
+    margin: 10px;
+  }
+
+  .addIcon:hover {
+    cursor: pointer;
+  }
+}

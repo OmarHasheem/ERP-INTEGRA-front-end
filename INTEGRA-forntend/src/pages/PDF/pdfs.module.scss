@@ -1,0 +1,13 @@
+.pdfs {
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: calc(100vw - 250px);
+  height: calc(100vh - 70px);
+}
+
+.pdfs {
+  h1 {
+    color: var(--second-color);
+    margin: 20px;
+  }
+}

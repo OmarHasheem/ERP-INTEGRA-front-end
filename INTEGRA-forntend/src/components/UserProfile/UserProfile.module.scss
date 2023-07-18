@@ -1,0 +1,143 @@
+.UserProfile {
+  width: 100vw;
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+  overflow-x: auto;
+  background-image: url('../../img/IntegraUserProfile.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+
+  .sidebar{
+    height: calc(100vh - 70px);
+    width: 300px;
+   overflow-y: auto;
+   label{
+     font-size: 18px;
+     font-weight: bold;
+     color: var(--second-color);
+   }
+ 
+   p{
+     margin-bottom: 10px;
+     color: var(--third-color);
+   }
+
+   .adv{
+    margin-top: 30px;
+    text-align: center;
+    color: var(--second-color);
+   }
+  }
+
+  .content{
+    width: calc(100vw - 300px);
+    margin: 10px;
+    overflow-y: auto;
+    height: calc(100vh - 90px);
+  }
+
+  .box{
+    margin: 20px 0 0 10px
+  }
+
+  h1 {
+    color: var(--second-color);
+    margin: 10px;
+  }
+
+  .label{
+    color: var(--second-color);
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .accordion{
+    width: 90%;
+  }
+
+  .accordionBox{
+    width: calc(100vw - 300px);
+    margin-left: 50px;
+  }
+  .info{
+    color: var(--second-color);
+    font-size: 16px;
+    font-weight: 700;
+    overflow-y: auto;
+  }
+
+
+  .wrapper{
+display: flex;
+justify-content: space-between;
+ width: calc(100vw - 350px);
+  }
+  .button {
+        display: flex;
+        justify-content: end;
+        margin: 10px;
+        button {
+          background-color: var(--second-color);
+          color: var(--text-color);
+          padding: 8px;
+          cursor: pointer;
+          border-style: none;
+          border-radius: 4px;
+          transition: 0.3s;
+        }
+        button:hover {
+          background-color: var(--third-color);
+        }
+      }
+
+//   .card {
+//     background-color: transparent;
+//     border: 1px solid var(--text-color);
+//     border: 2px solid var(--third-color);
+//     box-shadow: none;
+//   }
+//   .chart {
+//     background-color: var(--second-color);
+//   }
+//   .button {
+//     display: flex;
+//     justify-content: end;
+//     margin: 10px;
+//     button {
+//       background-color: var(--second-color);
+//       color: var(--text-color);
+//       padding: 8px;
+//       border-style: none;
+//       border-radius: 4px;
+//       transition: 0.3s;
+//     }
+//     button:hover {
+//       background-color: var(--third-color);
+//     }
+//   }
+
+//   label {
+//     color: var(--second-color);
+//     font-size: 20px;
+//     margin: 10px;
+//     display: block;
+//   }
+
+//   p {
+//     margin: 12px;
+//     font-weight: 400;
+//   }
+
+//   .cardItems {
+//     display: flex;
+//   }
+
+//   .childCard {
+//     border: 2px solid var(--third-color);
+//     margin: 10px;
+//     background-color: transparent;
+//     box-shadow: none;
+//   }
+}

@@ -1,0 +1,73 @@
+.employeeItem {
+  width: calc(100vw - 270px);
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.employeeItem {
+  label {
+    color: var(--second-color);
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  p {
+    margin: 12px;
+  }
+
+  .cardItems {
+    display: flex;
+  }
+
+  .card {
+    border: 2px solid var(--third-color);
+  }
+
+  .box {
+    width: calc(100vw - 300px);
+    margin-left: 10px;
+  }
+  .btn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 16px;
+    button {
+      background-color: var(--second-color);
+      border-style: none;
+      border-radius: 4px;
+      color: var(--text-color);
+      cursor: pointer;
+      padding: 10px;
+      transition: 0.4s;
+    }
+
+    button:hover {
+      background-color: var(--third-color);
+    }
+
+    .link {
+      text-decoration: none;
+      color: var(--text-color);
+      background-color: var(--second-color);
+      border-radius: 4px;
+      border-style: none;
+      padding: 10px;
+      margin-right: 10px;
+      transition: 0.4s;
+    }
+    .link:hover {
+      background-color: var(--third-color);
+    }
+  }
+  h1 {
+    color: var(--second-color);
+    margin: 10px;
+  }
+
+  .leadLink {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--second-color);
+  }
+}

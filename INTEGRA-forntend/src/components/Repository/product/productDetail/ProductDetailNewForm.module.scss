@@ -1,0 +1,153 @@
+.productDetailForm {
+  display: flex;
+ justify-content: space-around;
+  margin: 40px;
+
+}
+
+.productDetailForm {
+  label {
+    margin: 10px;
+    color: var(--second-color);
+    font-size: 18px;
+  }
+  input {
+    width: 90%;
+    padding: 5px;
+    outline: none;
+    margin: 14px;
+    display: inline;
+  }
+
+  table{
+    margin: 10px;
+    padding: 10px;
+    
+  }
+  .group{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  margin-top: 20px;
+    
+  }
+  select {
+    display: inline;
+    width: 250px;
+    padding: 6px;
+    outline: none;
+    margin: 10px;
+    color: var(--second-color);
+    font-size: 14px;
+  }
+
+  option {
+    background-color: var(--second-color);
+    color: var(--text-color);
+    font-size: 14px;
+  }
+
+  h1 {
+    margin: 20px;
+    color: var(--second-color);
+  }
+
+  td{
+   display: flex;
+   justify-content: center;
+   padding-left: 6px;
+   padding-right: 6px;
+
+  }
+
+  tr{
+    display: inline;
+  }
+  th{
+    padding: 20px;
+    color: var(--second-color);
+  }
+
+  .editCard{
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid var(--third-color);
+    border-radius: 4px;
+  }
+
+  .iconBox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .card{
+    background-color: transparent;
+    border: 2px solid var(--third-color);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+  }
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    margin: 4px;
+  }
+
+  .actions  button {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    margin: 20px;
+    border-radius: 4px;
+    background-color: var(--second-color);
+    color: var(--text-color);
+    border: none;
+    transition: 0.4s;
+  }
+
+  .actions button:hover {
+    background-color: var(--third-color);
+    color: var(--text-color);
+  }
+
+  .editActions{ 
+    display: flex;
+    justify-content: center;
+  }
+  .editActions  button {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: var(--second-color);
+    color: var(--text-color);
+    border: none;
+    transition: 0.4s;
+  }
+
+  .editActions button:hover {
+    background-color: var(--third-color);
+    color: var(--text-color);
+  }
+
+  .addIcon {
+    background-color: var(--second-color);
+    color: var(--text-color);
+  width: 20%;
+  border-radius: 50px;
+  transition: 0.3s;
+  }
+
+  .addIcon:hover {
+    cursor: pointer;
+    background-color: var(--third-color);
+  }
+
+  .p{
+   margin-top: 10px;
+  }
+}

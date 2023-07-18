@@ -1,0 +1,85 @@
+.productForm {
+  align-items: center;
+  display: flex;
+}
+
+.productForm {
+  .form {
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: 70%;
+  }
+  p {
+    margin-top: 10px;
+  }
+
+  input,
+  textarea {
+    width: 90%;
+    color: var(--second-color);
+    margin: 4px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+  }
+
+  label {
+    color: var(--second-color);
+    padding: 10px;
+    margin: 8px;
+    font-weight: bold;
+  }
+
+  select {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    margin: 4px;
+    color: var(--second-color);
+    font-size: 14px;
+    border: black solid 2px;
+  }
+
+  option {
+    background-color: var(--second-color);
+    color: var(--text-color);
+    font-size: 14px;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+  }
+
+  .actions button {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin: 30px;
+    transition-duration: 0.2s;
+    font-size: 18px;
+    background-color: var(--second-color);
+  }
+
+  .actions button:hover {
+    color: white;
+    background-color: var(--third-color);
+  }
+
+  .actions button[type='button']:hover {
+    color: white;
+    background-color: var(--third-color);
+  }
+
+  h1 {
+    margin: 20px;
+    font-size: 35px;
+    color: var(--second-color);
+  }
+}

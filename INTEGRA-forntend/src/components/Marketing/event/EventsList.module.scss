@@ -1,0 +1,62 @@
+.eventList {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  table {
+    text-align: center;
+    background-color: white;
+    border-collapse: collapse;
+    border: 4px solid var(--second-color);
+  }
+
+  td {
+    //padding-right: 20px;
+    color: var(--second-color);
+    cursor: pointer;
+    padding: 12px;
+  }
+
+  th {
+    width: 100px;
+    background-color: var(--second-color);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: var(--text-color);
+  }
+
+  tr {
+    border: 1px solid var(--text-color);
+  }
+
+  h1 {
+    color: var(--second-color);
+  }
+
+  .addNewEvent {
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+  }
+
+  .link {
+    text-decoration: none;
+    color: var(--second-color);
+  }
+
+  .eventList_link {
+    text-decoration: none;
+    background-color: var(--second-color);
+    color: white;
+    padding: 6px;
+    margin: 4px;
+    border: 1px solid;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .eventList_link:hover {
+    background-color: var(--third-color);
+    padding: 8px;
+  }
+}
